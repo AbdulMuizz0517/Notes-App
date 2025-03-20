@@ -1,0 +1,64 @@
+.auth-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.auth-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.auth-container input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background: #e0e0e04c;
+    font-size: 1rem;
+}
+
+.auth-container button {
+    width: 100%;
+    padding: 12px;
+    background: #1e40af;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.auth-container button:hover {
+    background: #142c69;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.auth-link {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #aaa;
+}
+
+.auth-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,24 @@
+.features-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+  }
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  .feature-card {
+    padding: 20px;
+    width: 300px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .blue { background: linear-gradient(to right, #3a2a8c, #000428); }
+  .red { background: linear-gradient(to right, #210036, #b77dff); }
+  .orange { background: linear-gradient(to right, #ffbb00, #ff3700); }
+  
